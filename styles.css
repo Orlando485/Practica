@@ -1,0 +1,45 @@
+footer {
+    background-color: #2efcfc; 
+    color: #000000; 
+    padding: 20px; 
+    text-align: center; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 100;
+}
+
+footer p {
+    margin: 0; 
+}
+
+footer.corner-top-left {
+    bottom: auto;
+    top: 0;
+    left: 0;
+    right: auto;
+}
+
+/* Esquina superior derecha */
+footer.corner-top-right {
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+}
+
+/* Esquina inferior izquierda */
+footer.corner-bottom-left {
+    bottom: 0;
+    top: auto;
+    left: 0;
+    right: auto;
+}
+
+/* Esquina inferior derecha */
+footer.corner-bottom-right {
+    bottom: 0;
+    top: auto;
+    left: auto;
+    right: 0;
+}
+
